@@ -4,8 +4,13 @@ export default function Calculator() {
         return x + y;
     }
 
+    function substract(x, y) {
+        return 1;
+    }
+
     return {
         sum,
+        substract
     }
 };
 
