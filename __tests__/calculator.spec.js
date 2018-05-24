@@ -1,14 +1,14 @@
-import Carculator from '../src/calculator';
-let app;
+import Calculator from '../src/calculator';
+let calculator;
 
 describe('calculator', function () {
 
     beforeEach(function () {
-        app = Calculator();
+        calculator = Calculator();
     });
 
     it('sums two values ', function () {
-        expect(Calculator.sum(0, 0)).toBe(0)
+        expect(calculator.sum(0, 0)).toBe(0)
     });
 
 });

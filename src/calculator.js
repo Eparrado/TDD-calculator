@@ -1,7 +1,11 @@
 export default function Calculator() {
 
-    return {
+    function sum(x, y) {
+        return 0;
+    }
 
+    return {
+        sum,
     }
 };
 
