@@ -13,4 +13,7 @@ describe('calculator', function () {
         expect(calculator.sum(1, 1)).toBe(2);
     });
 
+    it('substracts two values', function () {
+        expect(calculator.substract(1, 0)).toBe(1);
+    });
 });
