@@ -5,7 +5,7 @@ export default function Calculator() {
     }
 
     function substract(x, y) {
-        return 1;
+        return x - y;
     }
 
     return {
