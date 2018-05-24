@@ -1,4 +1,4 @@
-export default function Application() {
+export default function Calculator() {
 
     return {
 
