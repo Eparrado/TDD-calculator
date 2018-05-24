@@ -17,5 +17,6 @@ describe('calculator', function () {
     it('substracts two values', function () {
         expect(calculator.substract(1, 0)).toBe(1);
         expect(calculator.substract(1, 1)).toBe(0);
+        expect(calculator.substract(10, 1)).toBe(9);
     });
 });
