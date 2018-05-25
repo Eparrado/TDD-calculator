@@ -22,5 +22,7 @@ describe('calculator', function () {
 
     it('multiply two values', function () {
         expect(calculator.multiply(0, 0)).toBe(0);
+        expect(calculator.multiply(1, 0)).toBe(0);
+        expect(calculator.multiply(1, 1)).toBe(1);
     });
 });
