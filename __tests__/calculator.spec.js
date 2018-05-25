@@ -27,4 +27,8 @@ describe('calculator', function () {
         expect(calculator.multiply(10, 2)).toBe(20);
         expect(calculator.multiply(100, 100)).toBe(10000);
     });
+
+    it('divide two values', function () {
+        expect(calculator.divide(0, 0)).toBe(NaN);
+    });
 });
