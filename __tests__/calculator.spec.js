@@ -19,4 +19,8 @@ describe('calculator', function () {
         expect(calculator.substract(1, 1)).toBe(0);
         expect(calculator.substract(10, 1)).toBe(9);
     });
+
+    it('multiply two values', function () {
+        expect(calculator.multiply(0, 0)).toBe(0);
+    });
 });
