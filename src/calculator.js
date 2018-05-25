@@ -12,10 +12,15 @@ export default function Calculator() {
         return x * y;
     }
 
+    function divide(x, y) {
+        return NaN;
+    }
+
     return {
         sum,
         substract,
-        multiply
+        multiply,
+        divide
     }
 };
 
