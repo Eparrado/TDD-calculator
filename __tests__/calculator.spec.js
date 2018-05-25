@@ -24,5 +24,7 @@ describe('calculator', function () {
         expect(calculator.multiply(0, 0)).toBe(0);
         expect(calculator.multiply(1, 0)).toBe(0);
         expect(calculator.multiply(1, 1)).toBe(1);
+        expect(calculator.multiply(10, 2)).toBe(20);
+        expect(calculator.multiply(100, 100)).toBe(10000);
     });
 });
