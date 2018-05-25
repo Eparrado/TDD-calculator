@@ -30,5 +30,6 @@ describe('calculator', function () {
 
     it('divide two values', function () {
         expect(calculator.divide(0, 0)).toBe(NaN);
+        expect(calculator.divide(2, 2)).toBe(1);
     });
 });

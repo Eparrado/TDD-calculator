@@ -13,7 +13,7 @@ export default function Calculator() {
     }
 
     function divide(x, y) {
-        return NaN;
+        return x / y;
     }
 
     return {
