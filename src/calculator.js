@@ -8,9 +8,14 @@ export default function Calculator() {
         return x - y;
     }
 
+    function multiply(x, y) {
+        return 0;
+    }
+
     return {
         sum,
-        substract
+        substract,
+        multiply
     }
 };
 
