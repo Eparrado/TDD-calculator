@@ -8,12 +8,9 @@ app.set('views', 'views');
 
 // ROUTES:
 app.get('/', (req, res) => {
-    res.render('index', {'variable': 'valor'});
+    res.render('index');
 });
 
-app.get('/otra_ruta/', (request, response) => {
-   response.send('hola');
-});
 
 // START APP
 app.listen(3000, () => console.log('Example app listening on port 3000!'))

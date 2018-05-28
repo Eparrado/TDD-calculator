@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+  }
+  
+html {
+    height: 100vh;
+    margin: 0;
+  }
+
+body {
+    height: 100vh;
+      background-color: rgb(239, 241, 240);
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 4fr 1fr;
+  }
+
+.page__title {
+    color:rgb(189, 189, 189);
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.page__footer {
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 0px 250px;
+}
+
+.calculator__header, .clear {
+    grid-column: span 4;
+}
+
+.calculator__header {
+    border: none;
+    border-radius: 20px;
+    font-style: inherit;
+    font-size: 25px;
+    text-align: right;
+    color: black;
+    background-color: white;
+    padding-right: 20px;
+}
+
+.calculator__number {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(189, 189, 189);
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color ease-in-out .3s;
+}
+.calculator__number:hover {
+    background-color: tomato;
+}
+
+.calculator__button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(144, 146, 146);
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color ease-in-out .3s;
+}
+.calculator__button:hover {
+    background-color: salmon
+}
+
+
+button:focus {outline: none;}
+input:focus {outline: none;}
